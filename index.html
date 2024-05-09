@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            text-align: center;
+            font-family:sans-serif;
+            letter-spacing: -1px;
+        }
+
+        .box {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .card {
+            width: 20%;
+            height: 500px;
+            border: 1px solid red;
+            position: relative;
+            text-align: center;
+            box-shadow: 0 2px 5px royalblue;
+        }
+
+        img {
+            width: 100%;
+            height: 230px;
+        }
+
+        span {
+            color:aliceblue;
+            position: absolute;
+            font-size: 30px;
+            right: 80px;
+            top: 180px;
+        }
+
+          .entity {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 19px;}
+
+        .entity>div {
+          width: 40%;
+            height: 30px;
+            text-align: center;
+            padding-top: 16px;
+        }
+
+        p {
+            padding: 0px 5px;
+        }
+
+        a {
+            padding: 10px;
+            background-color: blueviolet;
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            background-color: azure;
+        }
+
+        .color {
+            width: 100%;
+            height: 10px;
+            background-color: blueviolet;
+            margin-top: -4px;
+        }
+    </style>
+
+<body>
+    <div class="header">
+        <h1>Flexbox Blog-Card</h1>
+    </div>
+        <div class="box">
+            <div class="card">
+            <img src="./newyork.jpg" alt=""> <span class="text">New York</span>
+            <div class="color"></div>
+            <div class="entity">
+                <div><i class="fa fa-calendar" style="font-size: 19px;"></i>AUG </div>
+                
+              <div><i class="fa fa-heart" style="font-size: 19px;"></i>102</div>
+            
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex culpa ipsam laborum ipsum rerum quisquam
+                modi
+                dolorum quos similique iste?
+                Adipisci odit omnis aspernatur, nemo cum assumenda consequatur natus sit?
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="card">
+            <img src="./sanfrancisco.jpg" alt=""> <span class="text">San Francisco</span>
+            <div class="color"></div>
+            <div class="entity">
+                <div><i class="fa fa-calendar" style="font-size: 19px;"></i>AUG </div>
+                <div><i class="fa fa-heart" style="font-size: 19px;"></i>102</div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex culpa ipsam laborum ipsum rerum quisquam
+                modi
+                dolorum quos similique iste?
+                Adipisci odit omnis aspernatur, nemo cum assumenda consequatur natus sit?
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
